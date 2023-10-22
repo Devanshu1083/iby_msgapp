@@ -2,7 +2,7 @@
 Real time messaging web application
 
 
-Made by:
-    Devanshu Verma</br>
-    IIT ROPAR, Punjab</br>
-    CSE department
+Made by:<br/>
+&nbsp;&nbsp;&nbsp; Devanshu Verma<br/>
+&nbsp;&nbsp;&nbsp;    IIT ROPAR, Punjab<br/>
+&nbsp;&nbsp;&nbsp;    CSE department
