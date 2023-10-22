@@ -3,6 +3,6 @@ Real time messaging web application
 
 
 Made by:
-    Devanshu Verma
-    IIT ROPAR, Punjab
+    Devanshu Verma</br>
+    IIT ROPAR, Punjab</br>
     CSE department
