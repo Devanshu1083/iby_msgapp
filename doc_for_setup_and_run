@@ -1,0 +1,21 @@
+Instructions to run:
+    The main files are present in master branch of this repository. After pulling from that branch, you get two folders,one contains the files for front-end named as "msgapp". The back-end code is present in second 
+    folder "server". Now, suitable packages need to be added if missing from the directories.
+    Firstly, go to server directory, change the MONGO_URL to a valid mongo databse URL in the  ".env" file, and  then run command <nodemon index.js> to start server at localport.
+    After that, go to "msgapp" directory and run command <yarn start> in the terminal to start the web application. Now, simply register and start using the messaging service.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+yarn was used as the primary pacckage manager for this project.
+Dependencies and libraries used:
+1). react-router-dom: It was used to implement dynamic routing for our project. It was used to display pages according to the url and navigate between them.
+2). react-toastify: This was used to add functionality of toast notifications, mainly when an invalid state was encountered. Mainly used in register and login acticities.
+3). axios: This library was used to make http request to the avatar api and also sending requests to our Node.js server.
+4). buffer: buffer was used to perform operations on raw binary data recieved from avatar API to obtain useful base64 string during avatar selection procedure.
+5). styled-components: It came in very handy to create custom components and style them inside the javascript script itself instead of creating css files.
+6). socket.io-client: was used to implement socket functionality of client side like establishing the connection to socket, adding current user to global users display of messages recieved in real-time.
+7). react-icons: library to use pre-made icons such as send and logout.
+8). emoji-picker-react: To support emojis in text message, this library was used. It provides use ready emoji picker tool.
+9). express: It made the process of server side development very fast and effecient. Used in many aspects like request handling, routing, working with database and sockets, etc. at back-end.
+10). mongoose: This library was used to work with our mongoDB database that we used for user authentication, users and message storage, Schema validation, translation etc.
+11). socket.io: This was used on server side to establish low latency, bidirectional communication between the users to allow for real time messages.
+12). cors: to enable request and response between our client and server side as the ports for those two are different.
