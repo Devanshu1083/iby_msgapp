@@ -19,3 +19,5 @@ Dependencies and libraries used:
 10). mongoose: This library was used to work with our mongoDB database that we used for user authentication, users and message storage, Schema validation, translation etc.
 11). socket.io: This was used on server side to establish low latency, bidirectional communication between the users to allow for real time messages.
 12). cors: to enable request and response between our client and server side as the ports for those two are different.
+13). bcrypt: this was used to encrypt password associated with a user
+14). dotenv: to use the environment file for storing MongoURL and Port for the server
